@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TinoHacks Live</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="TinoHacks II is a two day hackathon on April 21-22, 2018 where both new and experienced programmers can work together on projects, learn new skills, and have a splendid time.">
+    <meta name="author" content="The Tino Hacks Team">
+    <!--Mobile App Compatibility-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="TinoHacks II">
+    <meta itemprop="description" content="TinoHacks II is a two day hackathon on April 21-22, 2018 where both new and experienced programmers can work together on projects, learn new skills, and have a splendid time.">
+    <meta itemprop="image" content="../img/icons/apple-touch-icon-180x180.png">
+    <!--Facebook Open Graph Data-->
+    <meta property="og:title" content="TinoHacks II" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../img/icons/apple-touch-icon-180x180.png" />
+    <meta property="og:url" content="http://tinohacks.tech" />
+    <meta property="og:description" content="TinoHacks II is a two day hackathon on April 21-22, 2018 where both new and experienced programmers can work together on projects, learn new skills, and have a splendid time."
+    />
+    <!--Twitter Card Data-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="http://tinohacks.tech">
+    <meta name="twitter:title" content="TinoHacks II">
+    <meta name="twitter:description" content="TinoHacks II is a two day hackathon on April 21-22, 2018 where both new and experienced programmers can work together on projects, learn new skills, and have a splendid time.">
+    <meta name="twitter:image" content="../img/icons/apple-touch-icon-180x180.png">
+    <!--Website Favicon-->
+    <link rel="icon" href="../img/icons/favicon.ico">
+    <!--Apple Touch Icons-->
+    <link rel="apple-touch-icon-precomposed" href="../img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../img/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../img/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../img/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="../img/icons/apple-touch-icon-180x180.png">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="introjs.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="live_style.css">
+</head>
+
+<body>
+    <div class="row" data-step="9" data-intro="Click done to complete tutorial.">
+        <nav id="sponsorResources" class="navbar fixed-top navbar-dark">
+            <a class="navbar-brand" href="#" data-step="1" data-intro='Welcome to TinoHacks II Live! Click next to go through the tutorial.'>
+                <img class="d-inline-block" width="30" height="30" src="img/tinohacks-header.png" /> TinoHacks II LIVE
+            </a>
+            <a data-step="6" data-intro="The amount of hacking time left will be posted here realtime." id="hackingTimeLeft" class="navbar-brand"
+                href="#">
+                <strong>HACKING TIME LEFT: </strong>
+                <span id="countdown-timer">24:00:00</span>
+            </a>
+            <a href="#" data-step="7" data-intro="Access all our social media here.">
+                <a class="social-media" target="_blank" href="https://www.facebook.com/groups/157073758457966/" data-toggle="tooltip" data-placement="bottom"
+                    title="fb@tinohacks">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="social-media" target="_blank" href="https://twitter.com/TinoHacks">
+                    <i class="fab fa-twitter-square" data-toggle="tooltip" data-placement="bottom" title="twitter@tinohacks"></i>
+                </a>
+                <a class="social-media" target="_blank" href="https://www.instagram.com/tinohacks/">
+                    <i class="fab fa-instagram" data-toggle="tooltip" data-placement="bottom" title="ig@tinohacks"></i>
+                </a>
+                <a class="social-media" target="_blank" href="https://www.flickr.com/photos/150174093@N05/">
+                    <i class="fab fa-flickr" data-toggle="tooltip" data-placement="bottom" title="flickr@tinohacks"></i>
+                </a>
+                <a class="social-media" target="_blank" href="https://tinohacksii.slack.com/join/shared_invite/enQtMzQ1MzAwMzIyMzU1LWE0OTU4OGVmODBkMGM5NDMxMDk4YjQ4YmI2OTQ1NDc1OTdkODVhMjhkMjdhODE2ZDc1ZjRmZWM0MTk4NjQzZWI">
+                    <i class="fab fa-slack" data-toggle="tooltip" data-placement="bottom" title="Slack"></i>
+                </a>
+                <a class="social-media" target="_blank" href="https://itunes.apple.com/us/app/tinohacks-tools/id1372419559?mt=8&ign-mpt=uo%3D2">
+                    <i class="fab fa-apple" data-toggle="tooltip" data-placement="bottom" title="iOS App"></i>
+                </a>
+                <a class="social-media" target="_blank" href="https://play.google.com/store/apps/details?id=tech.tinohacks.tinohacks">
+                    <i class="fab fa-android" data-toggle="tooltip" data-placement="bottom" title="Android App"></i>
+                </a>
+                <a class="social-media" data-toggle="tooltip" data-placement="bottom" title="Devpost" target="_blank" href="https://tinohacks2.devpost.com">
+                    <img src="img/devpost-icon.png" width="40" height="35" />
+                </a>
+            </a>
+            <button data-step="8" data-intro="Resources to sponsor APIs and other links can be found here." class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                RESOURCES&nbsp;
+                <i id="resourcesArrow" class="fas fa-chevron-circle-down"></i>
+            </button>
+        </nav>
+        <div id="sponsorsWindow">
+            <div class="container">
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://tinohacksii.slack.com/join/shared_invite/enQtMzQ1MzAwMzIyMzU1LWE0OTU4OGVmODBkMGM5NDMxMDk4YjQ4YmI2OTQ1NDc1OTdkODVhMjhkMjdhODE2ZDc1ZjRmZWM0MTk4NjQzZWI">
+                            <div style="background-image: url('img/slack.jpg');" data-toggle="tooltip" data-placement="bottom" title="Slack" class="sponsorIcon">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://tinohacks2.devpost.com">
+                            <div style="background-image: url('img/devpost.jpg');" data-toggle="tooltip" data-placement="bottom" title="Devpost"
+                                class="sponsorIcon">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://itunes.apple.com/us/app/tinohacks-tools/id1372419559?mt=8&ign-mpt=uo%3D2">
+
+                            <div style="background-image: url('img/iosqr.png');" data-toggle="tooltip" data-placement="bottom" title="Scan iOS App QR" class="sponsorIcon">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=tech.tinohacks.tinohacks">
+                            <div style="background-image: url('img/androidqr.png');" data-toggle="tooltip" data-placement="bottom" title="Scan Android App QR"
+                                class="sponsorIcon">
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://education.github.com/pack">
+                            <div style="background-image: url('img/github-developer.jpg');" data-toggle="tooltip" data-placement="bottom" title="Github Student Developer Pack"
+                                class="sponsorIcon">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://www.wolfram.com/language/">
+
+                            <div style="background-image: url('img/wolfram-alpha.jpg');" data-toggle="tooltip" data-placement="bottom" title="Wolfram Alpha"
+                                class="sponsorIcon">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://docs.google.com/document/d/1X5g-PAjQomAh0qMza0leP7S8ey_YTucLYd_AcmT3zsc/">
+
+                            <div style="background-image: url('img/dot-tech.jpg');" data-toggle="tooltip" data-placement="bottom" title="Free .tech Domains"
+                                class="sponsorIcon">
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://www.twilio.com">
+
+                            <div style="background-image: url('img/twilio.jpg');" data-toggle="tooltip" data-placement="bottom" title="Twilio" class="sponsorIcon">
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <br/>
+                <div class="row ">
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://hackplus.io">
+                            <div style="background-image: url('img/hackplus.jpg');" data-toggle="tooltip" data-placement="bottom" title="Hack+"
+                                class="sponsorIcon">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://hackclub.com">
+                            <div style="background-image: url('img/hackclub.jpg');" data-toggle="tooltip" data-placement="bottom" title="Hack Club"
+                                class="sponsorIcon">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://www.jetbrains.com/student/">
+
+                            <div style="background-image: url('img/jetbrains.jpg');" data-toggle="tooltip" data-placement="bottom" title="Jetbrains"
+                                class="sponsorIcon">
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-3">
+                        <a target="_blank" href="https://www.makeschool.com">
+
+                            <div style="background-image: url('img/makeschool.jpg');" data-toggle="tooltip" data-placement="bottom" title="Make School"
+                                class="sponsorIcon">
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <div class="container-fluid ">
+        <br>
+        <br>
+        <br>
+        <div class="latest-announcement text-center" data-step="3" data-intro='The latest announcement will be posted here.'>
+            <h3></h3>
+            <p class="lead"></p>
+            <p class="float-right timestamp">
+                <span class="far fa-clock"></span>
+            </p>
+            <br>
+        </div>
+        <br>
+        <div class="row ">
+            <div data-step="5" data-intro="View our realtime Twitter feed @tinohacks here." class="col-md-2">
+                <a class="twitter-timeline " data-height="60vh " href="https://twitter.com/TinoHacks?ref_src=twsrc%5Etfw ">Tweets by TinoHacks</a>
+                <script async src="https://platform.twitter.com/widgets.js " charset="utf-8 "></script>
+            </div>
+            <div data-step="2" data-intro="All announcements will be posted here. AFTER the tutorial, click on the bell in the bottom right corner to subscribe to notifications."
+                class="col-md-5">
+                <h3>ANNOUNCEMENTS</h3>
+                <div id="announcements" class="widget-box">
+                </div>
+            </div>
+            <div data-step="4" data-intro="View any real time updates to the schedule here." class="col-md-5">
+                <h3>SCHEDULE</h3>
+                <div id="scheduleWidget" class="widget-box">
+                    <table class="table table-hover">
+                        <tbody id="schedule">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="intro.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js "></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js "></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js " async=" "></script>
+
+
+    <script>
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDmBBGkNjjv1uylYjgJZKhUaQerUdxCw3w",
+            authDomain: "tinohacks2.firebaseapp.com",
+            databaseURL: "https://tinohacks2.firebaseio.com",
+            projectId: "tinohacks2",
+            storageBucket: "tinohacks2.appspot.com",
+            messagingSenderId: "779949253339"
+        };
+        firebase.initializeApp(config);
+
+        const db = firebase.database();
+
+        if (localStorage.getItem('tutorialActivated') != 'true') {
+            introJs().setOption("skipLabel", "Skip Tutorial").start();
+            localStorage.setItem("tutorialActivated", "true");
+        }
+
+        db.ref('schedule').orderByChild('index').once('value', (snapshot) => {
+            snapshot.forEach((event) => {
+                $("#schedule").append(
+                    `
+                    <tr>
+                        <th scope="row">${event.val().time}</th>
+                        <td>${event.val().title}</td>
+                        <td>${event.val().place}</td>
+                    </tr>
+                    `
+                );
+
+            });
+        });
+
+        db.ref('schedule').on('child_changed', (snapshot) => {
+            $("#schedule > tr:nth-child(" + snapshot.val().index + ") > th").html(snapshot.val().time);
+            $("#schedule > tr:nth-child(" + snapshot.val().index + ") > td:nth-child(2)").html(snapshot.val().title);
+            $("#schedule > tr:nth-child(" + snapshot.val().index + ") > td:nth-child(3)").html(snapshot.val().place);
+        });
+
+        db.ref('scheduleVal').on('value', (snapshot) => {
+            $("#schedule > tr").removeClass();
+            $("#schedule > tr:nth-child(" + snapshot.val() + ")").addClass("dark-purple");
+            var rowpos = $("#schedule > tr:nth-child(" + snapshot.val() + ")").position();
+            rowpos.top = rowpos.top - 30;
+            $('#scheduleWidget').scrollTop(rowpos.top);
+        });
+
+        fetchAnnouncements();
+
+        function fetchAnnouncements() {
+
+            db.ref('posts').on('value', (snapshot) => {
+                var notifications = [];
+
+                snapshot.forEach((notification) => {
+                    notifications.push(notification.val());
+                });
+
+                notifications.sort((a, b) => {
+                    return b.time - a.time;
+                });
+
+                console.log(notifications);
+
+                let html = "";
+
+                notifications.forEach(notification => {
+                    html +=
+                        `
+                    <div class="notification-box">
+                        <h5>${notification.title}</h5>
+                        <p class="lead">${notification.body}</p>
+                        <p class="float-right timestamp">
+                            <span class="far fa-clock"></span> ${convertToCurrentTime(Math.floor(notification.time / 1000))}</p>
+                        <br>
+                    </div>`;
+
+                });
+
+                $("#announcements").html(html);
+
+                $(".latest-announcement > h3").html($("#announcements > div.notification-box:nth-child(1) > h5")
+                    .text());
+                $(".latest-announcement > p.lead").html($(
+                    "#announcements > div.notification-box:nth-child(1) > p.lead").text());
+                $(".latest-announcement > p.timestamp").html($(
+                    "#announcements > div.notification-box:nth-child(1) > p.timestamp").html());
+
+            });
+
+        }
+
+        var OneSignal = window.OneSignal || [];
+
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "f007ff53-ebb8-454e-8de5-16c3e75036e7"
+            });
+        });
+
+        var sponsorsOpen = false;
+
+        $("#sponsorResources").click(function (e) {
+            $("#resourcesArrow").removeClass();
+            if (!sponsorsOpen) {
+                TweenMax.to($("#sponsorsWindow"), 0.8, {
+                    height: "100vh",
+                    ease: Sine.easeOut,
+                    display: "block"
+                });
+                $("#resourcesArrow").addClass("fas fa-chevron-circle-up");
+            } else {
+                TweenMax.to($("#sponsorsWindow"), 0.3, {
+                    height: 0,
+                    ease: Sine.easeOut,
+                    display: "none"
+                });
+
+                $("#resourcesArrow").addClass("fas fa-chevron-circle-down");
+            }
+
+            sponsorsOpen = !sponsorsOpen;
+
+        });
+
+        //Countdown timer to April 22, 2018, 10:00 AM
+        var x;
+        var countDownDate = new Date("Apr 22, 2018 10:00:00 AM").getTime();
+
+        db.ref('timerOn').on('value', (snapshot) => {
+            if (snapshot.val() == 0) {
+                clearInterval(x);
+                $("#countdown-timer").html("24:00:00");
+            } else {
+                // Update the count down every 1 second
+                x = setInterval(function () {
+
+                    var now = new Date().getTime();
+
+                    var distance = countDownDate - now;
+
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) +
+                        (
+                            days * 24);
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    $("#countdown-timer").html(((hours < 10) ? "" + 0 + hours : hours) + ":" + ((
+                            minutes < 10) ? "" + 0 +
+                        minutes : minutes) + ":" + ((seconds < 10) ? "" + 0 + seconds :
+                        seconds));
+
+                    if (distance < 0) {
+                        clearInterval(x);
+                        $("#hackingTimeLeft").html("<strong>END OF HACKING</strong>");
+                    }
+                }, 1000);
+
+            }
+        });
+
+        function convertToCurrentTime(unix_timestamp) {
+
+            var date = new Date(unix_timestamp * 1000);
+            /*var hours = date.getHours();
+             var minutes = "0 " + date.getMinutes();
+             var seconds = "0 " + date.getSeconds();*/
+
+            var current = new Date();
+
+            var DateDiff = {
+
+                inSeconds: function (d1, d2) {
+                    var t2 = date.getTime();
+                    var t1 = current.getTime();
+
+                    return Math.abs(parseInt((t2 - t1) / (1000)));
+                },
+
+                inMinutes: function (d1, d2) {
+                    var t2 = date.getTime();
+                    var t1 = current.getTime();
+
+                    return Math.abs(parseInt((t2 - t1) / (60 * 1000)));
+                },
+
+                inHours: function (d1, d2) {
+                    var t2 = date.getTime();
+                    var t1 = current.getTime();
+
+                    return Math.abs(parseInt((t2 - t1) / (3600 * 1000)));
+                },
+
+                inDays: function (d1, d2) {
+                    var t2 = date.getTime();
+                    var t1 = current.getTime();
+
+                    return Math.abs(parseInt((t2 - t1) / (24 * 3600 * 1000)));
+                },
+
+                inWeeks: function (d1, d2) {
+                    var t2 = date.getTime();
+                    var t1 = current.getTime();
+
+                    return Math.abs(parseInt((t2 - t1) / (24 * 3600 * 1000 * 7)));
+                },
+
+                inMonths: function (d1, d2) {
+                    var d1Y = current.getFullYear();
+                    var d2Y = date.getFullYear();
+                    var d1M = current.getMonth();
+                    var d2M = date.getMonth();
+
+                    return Math.abs((d2M + 12 * d2Y) - (d1M + 12 * d1Y));
+                },
+
+                inYears: function (d1, d2) {
+                    return date.getFullYear() - current.getFullYear();
+                }
+            }
+
+            //var formattedTime = ((hours > 12) ? hours - 12 : hours) + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+
+            var yearDiff = DateDiff.inYears(current, date);
+            var monthDiff = DateDiff.inMonths(current, date);
+            var weekDiff = DateDiff.inWeeks(current, date);
+            var dayDiff = DateDiff.inDays(current, date);
+            var hourDiff = DateDiff.inHours(current, date);
+            var minutesDiff = DateDiff.inMinutes(current, date);
+            var secondsDiff = DateDiff.inSeconds(current, date);
+
+            if (yearDiff >= 2) {
+                return yearDiff + " years ago ";
+            } else if (yearDiff >= 1) {
+                return "1 year ago ";
+            } else if (monthDiff >= 2) {
+                return monthDiff + " months ago "
+            } else if (monthDiff >= 1) {
+
+                return "1 month ago ";
+
+            } else if (weekDiff >= 2) {
+                return weekDiff + " weeks ago "
+            } else if (weekDiff >= 1) {
+                return "1 week ago "
+
+            } else if (dayDiff >= 2) {
+                return dayDiff + " days ago"
+            } else if (dayDiff >= 1) {
+                return "1 day ago"
+
+            } else if (hourDiff >= 2) {
+
+                return hourDiff + " hours ago "
+
+            } else if (hourDiff >= 1) {
+                if (minutesDiff > 0) {
+                    return "1 hour, " + (minutesDiff - (60 * hourDiff)) + " mins ago "
+                } else {
+                    return "1 hour ago "
+                }
+            } else if (minutesDiff >= 2) {
+
+                return minutesDiff + " mins ago "
+
+            } else if (minutesDiff >= 1) {
+
+                return "1 minute ago "
+
+            } else if (secondsDiff >= 2) {
+
+                return secondsDiff + " secs ago "
+
+            } else if (secondsDiff >= 1) {
+
+                return "1 second ago "
+
+            }
+
+            return "Just Now "
+
+        }
+    </script>
+</body>
+
+</html>

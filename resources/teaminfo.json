@@ -1,0 +1,53 @@
+[{
+        "name": "Justine Qiu",
+        "short_title": "Executive Director",
+        "img_low": "img/team/Justine_Qiu.jpg"
+    }, {
+        "name": "Davin Clark",
+        "short_title": "Executive Director",
+        "img_low": "img/team/Davin_Clark.jpg"
+    }, {
+        "name": "Kashyap P.",
+        "short_title": "Technology Director",
+        "img_low": "img/team/Kashyap_Panda.jpg"
+    }, {
+        "name": "Sriharsha G.",
+        "full_name": "Sriharsha Guduguntla",
+        "short_title": "Tech/Ops Director",
+        "img_low": "img/team/Sriharsha_Guduguntla.jpg"
+    }, {
+        "name": "Shruthi J.",
+        "short_title": "Sponsorship Director",
+        "img_low": "img/team/Shruthi_Jaganathan.JPG"
+    },
+    {
+        "name": "Nithya A.",
+        "short_title": "Outreach Director",
+        "img_low": "img/team/Nithya_Attaluri.JPG"
+    },
+    {
+        "name": "Seiji O.",
+        "short_title": "Sponsorship",
+        "img_low": "img/team/Seiji_Otsu.JPG"
+    },
+    {
+        "name": "Tanupa T.",
+        "short_title": "Outreach",
+        "img_low": "img/team/Tanupa_Thaker.jpg"
+    },
+    {
+        "name": "Rikesh M.",
+        "short_title": "Sponsorship",
+        "img_low": "img/team/Rikesh_Mehta.JPG"
+    },
+    {
+        "name": "Mokshith V.",
+        "short_title": "Tech/Operations",
+        "img_low": "img/team/Mokshith_Voodarla.jpg"
+    },
+    {
+        "name": "Praneeth G.",
+        "short_title": "Operations",
+        "img_low": "img/team/Praneeth_Guduguntla.jpg"
+    }
+]
