@@ -1,5 +1,3 @@
-# TinoHacks Official Website
+# TerraHacks Official Website
 
-### The official TinoHacks website!
-
-#### http://tinohacks.tech ####
+### The official TerraHacks website!
