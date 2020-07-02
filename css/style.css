@@ -117,11 +117,11 @@ ELEMENTS
 
 #sponsors {
   color:#FFF;
-  background: #a06acc; /* Old browsers */
-  background: -moz-linear-gradient(top, #a06acc 4%, #337ab7 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #a06acc 4%,#337ab7 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #a06acc 4%,#337ab7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a06acc', endColorstr='#337ab7',GradientType=0 );text-align:center;padding:50px 80px;text-align: center;
+  background: #61abbe; /* Old browsers */
+  background: -moz-linear-gradient(top, #61abbe 4%, #194a74 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #61abbe 4%,#194a74 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #61abbe 4%,#194a74 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61abbe', endColorstr='#194a74',GradientType=0 );text-align:center;padding:50px 80px;text-align: center;
 }
 
 #partners {
@@ -132,10 +132,10 @@ ELEMENTS
 
 #footer {
   color: white; /* Old browsers */
-  background: -moz-linear-gradient(top, #2c7ae8 2%, #35a3bb 99%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #2c7ae8 2%,#35a3bb 99%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #2c7ae8 2%,#35a3bb 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c7ae8', endColorstr='#35a3bb',GradientType=0 );text-align:center;padding:50px 80px;text-align: text-center;
+  background: -moz-linear-gradient(top, #61abbe 2%, #194a74 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #61abbe 2%,#194a74 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #61abbe 2%,#194a74 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61abbe', endColorstr='#194a74',GradientType=0 );text-align:center;padding:50px 80px;text-align: text-center;
 }
 
 .buttons button{
@@ -146,7 +146,7 @@ ELEMENTS
   border-radius:3px;
   border: 1px solid #fff;
   background: transparent;
-  color: #fff;
+  color: #424242;
   padding-top: 8px;
   padding-bottom: 8px;
   width:225px;
@@ -187,13 +187,13 @@ ELEMENTS
 }
 
 .panel-heading {
-    background-color: #a06acc !important;
+    background-color: #61abbe !important;
     color: white !important;
     border-radius: 30px;
 }
 
 .panel-heading:hover {
-    background-color: #8841c1 !important;
+    background-color: #40707c !important;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
