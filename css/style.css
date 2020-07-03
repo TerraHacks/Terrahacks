@@ -810,3 +810,92 @@ figure img:hover {
     margin-top: -10px;
     cursor: pointer;
 }
+
+
+.tracks-pg {
+    padding-top:80px;
+background-color: #FFF;
+width: 100%;
+
+}
+
+.row.why-row {
+padding-bottom: 40px;
+}
+
+.track {
+position: relative;
+width: 300px;
+height: 300px;
+float: left;
+text-align: center;
+    color: #000
+}
+
+.track div {
+position: absolute;
+top: 0;
+background: #61abbe;
+color: white;
+font-family: 'Brandon Grotesque';
+opacity: 0;
+visibility: hidden;
+-webkit-transition: visibility 0s, opacity 0.5s linear; 
+transition: visibility 0s, opacity 0.5s linear;
+}
+
+/*
+
+.track:hover div {
+height: 150px;
+width: 200px;
+visibility: visible;
+opacity: 1; 
+}
+*/
+
+.header-container {
+    background-color:inherit;
+text-align: center;
+width:100%;
+margin-top: -4px;
+z-index:3;
+top: 5rem;
+
+}
+
+.section-pane {
+    display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.section-content {
+    width: 80%;
+padding: 50px;
+
+}
+
+.track-icons {
+    width: 100%;
+height: 80%;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.track-text {
+    font-size: 16px;
+    font-family: 'Brandon Grotesque';
+}
+
+.track img {
+    height: 75%;
+    width: 75%;
+    align-content: center;
+    border-radius: 50%;
+    float: center;
+}
+
