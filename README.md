@@ -1,3 +1,3 @@
 # TerraHacks Official Website
 
-### The official TerraHacks website!
+### The official TerraHacks website! 
