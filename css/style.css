@@ -89,6 +89,7 @@ ELEMENTS
 #mentor-button, #apply-button{
   display: inline-block;
   float: center;
+  font-weight: bold;
 }
 
 #about {
@@ -116,6 +117,15 @@ ELEMENTS
 }
 
 #sponsors {
+  color:#FFF;
+  background: #61abbe; /* Old browsers */
+  background: -moz-linear-gradient(top, #61abbe 4%, #194a74 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #61abbe 4%,#194a74 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #61abbe 4%,#194a74 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61abbe', endColorstr='#194a74',GradientType=0 );text-align:center;padding:50px 80px;text-align: center;
+}
+
+#team {
   color:#FFF;
   background: #61abbe; /* Old browsers */
   background: -moz-linear-gradient(top, #61abbe 4%, #194a74 100%); /* FF3.6-15 */
@@ -899,3 +909,50 @@ flex-direction: column;
     float: center;
 }
 
+
+.grid-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -2.0rem
+}
+
+.mb2 {
+    margin-bottom: 2rem
+}
+
+.span-2 {
+    -ms-flex-preferred-size: 16.66667%;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%
+}
+
+
+
+.mt2 {
+    margin-top: -20px
+}
+
+.grid-column {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    padding: 0 1.2rem
+}
+
+
+.author-post img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}

@@ -89,6 +89,7 @@ ELEMENTS
 #mentor-button, #apply-button{
   display: inline-block;
   float: center;
+  font-weight: bold
 }
 
 #about {
@@ -177,6 +178,14 @@ ELEMENTS
     display: block;
     margin: 0 auto;
     height: 150px;
+    margin-top: 50px;
+
+}
+.sponsorImg1 {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 145px;
     margin-top: 50px;
 
 }

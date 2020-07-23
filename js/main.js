@@ -4,8 +4,8 @@ $(document).ready(function () {
         for (var i = 0; i < data.length; i++) {
             var teamHTML = '';
             teamHTML += '<img class="circle teamPhoto" src="' + data[i].img_low + '" />'
-            teamHTML += '<h3 style="font-family: Lobster, cursive;"><strong>' + data[i].name + '</strong></h3>';
-            teamHTML += '<figcaption>' + data[i].short_title + '</figcaption>';
+            teamHTML += '<h3 style="font-family: Lobster, cursive; color:white ;">' + data[i].name + '</h3>';
+            teamHTML += '<figcaption style="color:white ;">' + data[i].short_title + '</figcaption>';
 
             $("#member" + (
                 i + 1)).html(teamHTML);
