@@ -956,3 +956,27 @@ flex-direction: column;
     border-radius: 50%;
     float: left;
 }
+
+#challenge-information {
+    background: white;
+    padding: 0
+}
+
+
+#introduction 
+#challenge-information {
+    border:0
+}
+
+.is-marginless {
+    margin: 0px !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.portrait {
+    height: 80px;
+    width: 30px;
+}
