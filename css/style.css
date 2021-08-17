@@ -980,3 +980,15 @@ flex-direction: column;
     height: 80px;
     width: 30px;
 }
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    width:40%;
+  }
+  
+  hr.shortsolid {
+    border:none;
+    border-top: 3px solid #bbb;
+    margin:1em auto; 
+    width:27em;
+  }
