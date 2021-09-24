@@ -221,12 +221,17 @@
                         <strong>PRIZES!</strong>
                     </h1>
                     <br/>
+<!--
                     <p style="font-family: 'Clear Sans Light'; color:#000; width:1000px; text-align:center; margin:auto; font-size:20px;">
                         We will be rewarding the top three ideas submitted with a $100 Amazon gift card. And DON'T MISS OUT!! We have participation prizes too! Look 
                         <a style='color: #377bb5 !important' href='https://docs.google.com/document/d/1D-P5lPFxBzrqftdH8T8pQhQALnkO-5dsM8iMzrSR6z0/edit?usp=sharing' target="_blank"> here</a> 
 
                         for details!!
         </p>
+-->
+                  <p style="font-family: 'Clear Sans Light'; color:#000; width:1000px; text-align:center; margin:auto; font-size:20px;">
+                        We’ve given out a lot of fun prizes in our past competitions, including AirPods, Amazon gift cards of up to $100 dollars, and more. Stay tuned for information on our future competitions to see how you can win a prize, too!
+        </p>  
                 </div>
             </div>
         </div>
@@ -441,8 +446,30 @@
 
                         <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="panel-body">
-                                Submissions will be accepted in a video or document format. For the video, we will accept a video no longer than 3 minutes quickly describing the idea. For the document, you are limited to 1 page describing your idea.                                    
-                                
+                                <!-- Submissions will be accepted in a video or document format. For the video, we will accept a video no longer than 3 minutes quickly describing the idea. For the document, you are limited to 1 page describing your idea.                                     -->
+                                There are two ways to submit your idea.  <br/><br/>
+                                1. Follow the procedure in the the submission document<br/>
+                                OR <br/>
+                                2. Enter your email and idea below to submit your idea<br/><br/>
+                                <label for="name">Name :</label>
+                                <input type="text" id="name" name="name"><br/><br/>
+                              
+                                <label for="email">Email :</label>
+                                <input type="text" id="email" name="email"><br/><br/>
+
+                                <label for="school">School :</label>
+                                <input type="text" id="school" name="school"><br/><br/>
+
+                                <label for="interest">Your subject of interest :</label>
+                                <input type="text" id="interest" name="interest" value="e.g. CS, Journalism, Sports, Art, Dance, Business/Finance"><br/><br/>
+                              
+                                <textarea id="idea" name="idea" rows="4" cols="50" disabled>
+                                    Enter you idea here 
+                                </textarea> <br/><br/>
+
+                                <button type="button" style="color: grey;" disabled>Submit!</button><br/><br/>
+                                <p style="color: red">Submissions are currently closed! This button will be enabled during the next competition!</p>
+
                             </div>
                         </div>
                     </div>
@@ -667,6 +694,7 @@
             <div class="row">
                 <figure id="member1" class="founder col-md-5 col-md-offset-7"></figure>
                 <figure id="member2" class="founder col-md-5"></figure>
+                <figure id="member3" class="col-md-5"></figure>
             </div>
             
 
